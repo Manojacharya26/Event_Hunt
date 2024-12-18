@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EventHunt</string>
+    <string name="enter_the_entry_fees">Enter the entry fees</string>
+    <string name="enter_the_description">Enter the description</string>
+    <string name="publish">Publish</string>
+    <string name="party_banner">Party banner</string>
+    <string name="description">Description</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

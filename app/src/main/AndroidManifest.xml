@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="Event Hunt"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EventHunt"
+        tools:targetApi="31">
+        <activity
+            android:name=".AdminOrder"
+            android:exported="false" />
+        <activity
+            android:name=".MyOrder"
+            android:exported="false" />
+        <activity
+            android:name=".BookVenue"
+            android:exported="false" />
+        <activity
+            android:name=".BookArtist"
+            android:exported="false" />
+        <activity
+            android:name=".Wallet"
+            android:exported="false" />
+        <activity
+            android:name=".BookEvent"
+            android:exported="false" />
+        <activity
+            android:name=".AdminOption"
+            android:exported="false" />
+        <activity
+            android:name=".AdminRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".Payment"
+            android:exported="false" />
+        <activity
+            android:name=".ContactUs"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateVenue"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateArtist"
+            android:exported="false" />
+        <activity
+            android:name=".DetailArtistAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".ArtistSetting"
+            android:exported="false" />
+        <activity
+            android:name=".DetailVenueAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".EventSetting"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateEvent"
+            android:exported="false" />
+        <activity
+            android:name=".DetailEventAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".DetailArtist"
+            android:exported="false" />
+        <activity
+            android:name=".UploadArtist"
+            android:exported="false" />
+        <activity
+            android:name=".DetailVenue"
+            android:exported="false" />
+        <activity
+            android:name=".UploadVenue"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".VenueSetting"
+            android:exported="false" />
+        <activity
+            android:name=".GetStarted"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserSignUp"
+            android:exported="false" />
+        <activity
+            android:name=".UserLogin"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDash"
+            android:exported="false" />
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

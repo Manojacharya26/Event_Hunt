@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "690303991715",
+    "project_id": "eventhunt-696c3",
+    "storage_bucket": "eventhunt-696c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690303991715:android:96309f79228cb6b3bba416",
+        "android_client_info": {
+          "package_name": "com.example.eventhunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690303991715-ebuid3alch556gdhp79fl4i83li676bj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbqwla9jL8yuCOj6UbTNrSILW3G0jH344"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690303991715-ebuid3alch556gdhp79fl4i83li676bj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
